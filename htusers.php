@@ -9,7 +9,6 @@
 	require 'config.php';
 	
 	function modify_htusers_file ( $action, $data, $file = ACCESS_USER ) {
-		# TODO: Implement for action = add / delete
 		$content = file($file);
 		$newcontent = array();
 			
@@ -32,7 +31,7 @@
 		if ( $action == "add" ) {
 			$newcontent[] = "{$data[0]}:{$data[1]}\n";	
 		}
-		#echo implode('', $newcontent);
+
 		file_put_contents($file, $newcontent);
 	}
 	
@@ -45,8 +44,6 @@
 			} else {
 				$password = md5(addslashes($_POST['password']));	
 			}
-			#echo "{$username}:{$password}";
-
 			modify_htusers_file('add', array($username, $password) );			
 		}	
 		
@@ -67,7 +64,6 @@
 			continue;
 			
 		$t = split(":", $line);	 # Split username:password
-		
 		$users[] = array('name' => $t[0], 'password' => $t[1]); # Add them for later display
 	}
 ?>
