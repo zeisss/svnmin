@@ -9,6 +9,7 @@
 	require 'config.php';
 	
 	function modify_htusers_file ( $action, $data, $file = ACCESS_USER ) {
+
 		$content = file($file);
 		$newcontent = array();
 			
