@@ -6,7 +6,7 @@
 	remove the die() line from the config.php.
 
 
-Webmin
+svnmin
 ------
 This package contains 3 simple php files for partially managing your subversion installation:
 
