@@ -31,4 +31,4 @@ Installation is easy:
 
 Authors 
 -------
-* ZeissS <zeisss@moinz.de>
+* ZeissS zeisss(AT_)moinz.de

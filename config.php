@@ -25,7 +25,7 @@
 	## 
 	################################################################
 	define ( "ACCESS_USER", "/home/zeisss/var/svn/svn_moinz_de/conf/svnusers.conf");
-	
+	define ( 'ACCESS_PASSWORDTYPE', 'crypt'); # Options: crypt, md5
 	
 	################################################################
 	# Just a title added to the html output.
