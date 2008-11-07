@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+
+<project name="svnmin" basedir="." default="sign">
+	<property name="module.name" value="svnmin" />
+	<property name="module.version" value="0.1" />
+	
+	<target name="init" />
+	
+	<target name="pack" description="Packs the scripts into a tarball">
+		<tar destfile="${module.name}-${module.version}.tar.gz" compression="gzip" basedir="." includes="*.php README" />
+	</target>
+	
+	<target name="sign" description="Calls gpg to sign the tarball" depends="pack">
+		<echo>Calling gpg to sign the created tarball</echo>
+		<exec executable="gpg">
+			<arg value="-a" />
+			<arg value="--detach-sign" />
+			<arg value="${module.name}-${module.version}.tar.gz" />
+		</exec>
+	</target>
+</project>
