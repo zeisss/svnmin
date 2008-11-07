@@ -62,6 +62,11 @@
  <br />
  <input type="submit" value="Speichern" />
 </form>
+ <div>
+ 	<span class="tipp">
+ 		A post-commit hook is a bash script, that gets executed after a commit to the repository has been done. Its called with two arguments: The repository path and the revision of the executed commit.
+ 	</span>
+ </div>
 <?php endif; ?>
 </body>
 </html>
