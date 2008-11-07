@@ -8,7 +8,7 @@
 	<target name="init" />
 	
 	<target name="pack" description="Packs the scripts into a tarball">
-		<tar destfile="${module.name}-${module.version}.tar.gz" compression="gzip" basedir="." includes="*.php README" />
+		<tar destfile="${module.name}-${module.version}.tar.gz" compression="gzip" basedir="." includes="*.php README.markdown" />
 	</target>
 	
 	<target name="sign" description="Calls gpg to sign the tarball" depends="pack">
