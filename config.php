@@ -17,7 +17,15 @@
 	define ( "REPOSITORY_PATTERN", '/^[A-Za-z][A-Za-z0-9]*$/');
 	
 	################################################################
+	## 
+	################################################################
 	define ( "ACCESS_CONFIG", "/home/zeisss/var/svn/svn_moinz_de/conf/svnaccess.conf");
+	
+	################################################################
+	## 
+	################################################################
+	define ( "ACCESS_USER", "/home/zeisss/var/svn/svn_moinz_de/conf/svnusers.conf");
+	
 	
 	################################################################
 	# Just a title added to the html output.

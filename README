@@ -1,13 +1,14 @@
 
 
-						!!! WARNING !!!
+       !!! WARNING !!!
 	These scripts executes commands and modify files, so NEVER 
 	unpack them in a public accessable folder on your system.
 	Make sure its protected in some way. To make the working,
 	remove the die() line from the config.php.
 
 
-== Webmin ==
+Webmin
+------
 This package contains 3 simple php files for partially managing your subversion installation:
 
 * create-repository.php - Creates a new SVN repository in the repository parent dir.
@@ -18,13 +19,17 @@ These are simple scripts fitting my needs with only a small number of depencies:
 * The webserver needs to be able to write to the repositories
 * The webserver must be capable of executing svnadmin (Must be on the path)
 
-=== LICENSE ===
+LICENSE
+------
 This package is free as-is. Take it and do whatever you like. 
 
-=== Installation ===
+Installation
+------------
 Installation is easy: 
 # Unpack the tarball into a folder accessible by the webserver
 # Secure the folder e.g. with htaccess
 # Modify the config.php to fit your needs and remove the die() command at the top
-=== Authors === 
-* Stephan Zeissler <stephan.zeissler@moinz.de>
+
+Authors 
+-------
+* ZeissS <zeisss@moinz.de>
