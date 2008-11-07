@@ -1,8 +1,9 @@
 <?xml version="1.0" ?>
 
 <project name="svnmin" basedir="." default="sign">
+	<property file="build.properties" />
 	<property name="module.name" value="svnmin" />
-	<property name="module.version" value="0.1" />
+	<property name="module.version" value="dev" />
 	
 	<target name="init" />
 	
