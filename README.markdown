@@ -1,5 +1,4 @@
 
-
        !!! WARNING !!!
 	These scripts executes commands and modify files, so NEVER 
 	unpack them in a public accessable folder on your system.
@@ -26,9 +25,9 @@ This package is free as-is. Take it and do whatever you like.
 Installation
 ------------
 Installation is easy: 
-# Unpack the tarball into a folder accessible by the webserver
-# Secure the folder e.g. with htaccess
-# Modify the config.php to fit your needs and remove the die() command at the top
+1. Unpack the tarball into a folder accessible by the webserver
+2. Secure the folder e.g. with htaccess
+3. Modify the config.php to fit your needs and remove the die() command at the top
 
 Authors 
 -------
