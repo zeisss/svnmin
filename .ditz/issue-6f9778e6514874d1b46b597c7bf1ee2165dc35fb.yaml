@@ -1,0 +1,22 @@
+--- !ditz.rubyforge.org,2008-03-06/issue 
+title: Hide the user password
+desc: I should hide the user's password in the webform, as its of no use at all.
+type: :bugfix
+component: svnmin
+release: svnmin-v0.3
+reporter: ZeissS <zeisss@moinz.de>
+status: :unstarted
+disposition: 
+creation_time: 2008-11-18 22:56:39.766393 Z
+references: []
+
+id: 6f9778e6514874d1b46b597c7bf1ee2165dc35fb
+log_events: 
+- - 2008-11-18 22:56:43.541210 Z
+  - ZeissS <zeisss@moinz.de>
+  - created
+  - ""
+- - 2008-11-18 23:01:36.767384 Z
+  - ZeissS <zeisss@moinz.de>
+  - assigned to release svnmin-v0.3 from unassigned
+  - Assigned to v0.3

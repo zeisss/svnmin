@@ -4,5 +4,26 @@ version: "0.5"
 components: 
 - !ditz.rubyforge.org,2008-03-06/component 
   name: svnmin
-releases: []
-
+releases: 
+- !ditz.rubyforge.org,2008-03-06/release 
+  name: svnmin-v0.3
+  status: :unreleased
+  release_time: 
+  log_events: 
+  - - 2008-11-18 23:00:16.533980 Z
+    - ZeissS <zeisss@moinz.de>
+    - created
+    - ""
+- !ditz.rubyforge.org,2008-03-06/release 
+  name: svnmin-v0.2
+  status: :released
+  release_time: 2008-11-18 23:03:59.339065 Z
+  log_events: 
+  - - 2008-11-18 23:03:38.287670 Z
+    - ZeissS <zeisss@moinz.de>
+    - created
+    - ""
+  - - 2008-11-18 23:03:59.339078 Z
+    - ZeissS <zeisss@moinz.de>
+    - released
+    - ""

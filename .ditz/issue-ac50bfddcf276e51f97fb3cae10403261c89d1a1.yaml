@@ -1,0 +1,35 @@
+--- !ditz.rubyforge.org,2008-03-06/issue 
+title: Add some way to navigate between the pages
+desc: |-
+  There should be come inclusion mode for the modules, so they don't have to
+  add their one html headers,
+  contain links to every module,
+  add a username,
+  and so on
+type: :feature
+component: svnmin
+release: svnmin-v0.3
+reporter: ZeissS <zeisss@moinz.de>
+status: :unstarted
+disposition: 
+creation_time: 2008-11-18 22:58:56.180718 Z
+references: []
+
+id: ac50bfddcf276e51f97fb3cae10403261c89d1a1
+log_events: 
+- - 2008-11-18 22:58:57.972327 Z
+  - ZeissS <zeisss@moinz.de>
+  - created
+  - ""
+- - 2008-11-18 23:01:47.346865 Z
+  - ZeissS <zeisss@moinz.de>
+  - assigned to release svnmin-v0.3 from unassigned
+  - Assigned to v0.3
+- - 2008-11-18 23:14:29.698491 Z
+  - ZeissS <zeisss@moinz.de>
+  - edited description
+  - Edited the description.
+- - 2008-11-18 23:23:05.893947 Z
+  - ZeissS <zeisss@moinz.de>
+  - edited title
+  - ""
