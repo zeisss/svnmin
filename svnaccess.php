@@ -13,7 +13,7 @@
  
  <div>
  	<span class="tip">
- 		You can define groups by creating a [groups] block with multiple &lt;groupname&gt; = &lt;name1, name2, ...&gt; lines. To include them, use @groupname.<br />
+ 		You can define groups by creating a [groups] block with multiple &lt;groupname&gt; = &lt;name1, name2, ...&gt; lines. To include them, use @groupname. See <a href="http://svnbook.red-bean.com/nightly/en/svn.serverconfig.pathbasedauthz.html" target="_blank">svnbook.red-bean.com</a> for details about the usage.<br />
  	</span>
  </div>
 
