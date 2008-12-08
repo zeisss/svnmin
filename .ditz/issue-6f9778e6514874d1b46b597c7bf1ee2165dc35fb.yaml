@@ -5,8 +5,8 @@ type: :bugfix
 component: svnmin
 release: svnmin-v0.3
 reporter: ZeissS <zeisss@moinz.de>
-status: :unstarted
-disposition: 
+status: :closed
+disposition: :fixed
 creation_time: 2008-11-18 22:56:39.766393 Z
 references: []
 
@@ -20,3 +20,7 @@ log_events:
   - ZeissS <zeisss@moinz.de>
   - assigned to release svnmin-v0.3 from unassigned
   - Assigned to v0.3
+- - 2008-12-08 14:44:58.665254 Z
+  - ZeissS <zeisss@moinz.de>
+  - closed with disposition fixed
+  - Removed the password column from the output

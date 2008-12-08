@@ -15,7 +15,7 @@
 			
 		foreach ($content AS $line) {
 			$line = trim($line);
-			if ( empty($line) OR $line[0] == "#" ) { # Empty / comment lines gets ignored
+			if ( empty($line) OR $line[0] == "#" ) { # Empty / comment lines gets imply stored
 				$newcontent[] = "$line\n";		
 				continue;
 			}
@@ -83,13 +83,11 @@
   <table>
   	<tr>
   		<th width=200>Username</th>
-  		<th width=200>Password</th>
   		<th></th>
   	</tr>
   	<?php foreach ($users AS $user): ?>
   	<tr>
   		<td><?php echo $user['name']; ?></td>
-  		<td><?php echo $user['password']; ?></td>
   		<td><a href="htusers.php?action=delete&username=<?php echo $user['name']; ?>">[Remove]</a></td>
   	</tr>
   	<?php endforeach; ?>

@@ -23,10 +23,10 @@
 	
 	$dp = opendir(SVN_PARENT);
     while ( ( $file = readdir($dp)) !== false) {
-      	# TODO: Put the files into an array and sort it before printing it out.
         if ( $file[0] == "." ) continue;	
-     	
-     	$repositories[] = $file;    
+     	if ( is_dir ( SVN_PARENT  ."/$file" ) ) {
+	     	$repositories[] = $file;    
+     	}
     }
 	closedir($dp);
 	sort($repositories);

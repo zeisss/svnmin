@@ -17,18 +17,18 @@
 	define ( "REPOSITORY_PATTERN", '/^[A-Za-z][A-Za-z0-9]*$/');
 	
 	################################################################
-	## 
+	## Where is the path based authorization file located?
 	################################################################
-	define ( "ACCESS_CONFIG", "/home/zeisss/var/svn/svn_moinz_de/conf/svnaccess.conf");
+	define ( "ACCESS_CONFIG", "/opt/svn/svnaccess.conf");
 	
 	################################################################
 	## 
 	################################################################
-	define ( "ACCESS_USER", "/home/zeisss/var/svn/svn_moinz_de/conf/svnusers.conf");
+	define ( "ACCESS_USER", "/opt/svn/svnusers.conf");
 	define ( 'ACCESS_PASSWORDTYPE', 'crypt'); # Options: crypt, md5
 	
 	################################################################
 	# Just a title added to the html output.
-	define ("TITLE", "Moinz.de");
+	define ("TITLE", "Svnmin");
 	
 ?>
