@@ -3,7 +3,7 @@
 
 	if ( isset ( $_GET['name'] ) && !empty($_GET['name'])) 
 	{
-		if ( !preg_match_all(REPOSITORY_PATTERN, $_GET['name']) )
+		if ( !preg_match_all(REPOSITORY_PATTERN, $_GET['name'], $matches) )
 		{
 			die ( "Invalid repository name.");	
 		}
@@ -14,7 +14,7 @@
 			echo "Path $path already exists.";
 		} else 
 		{
-			echo "Creating new repository: ";
+			echo "Creating new repository '{$_GET['name']}': ";
 			if ( system("svnadmin create " . SVN_PARENT . $_GET['name']) !== FALSE) 
 			{
 				echo "Success";

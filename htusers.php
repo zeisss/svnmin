@@ -82,7 +82,7 @@
   <hr />
   <table>
   	<tr>
-  		<th width=200>Username</th>
+  		<th width=200 align=left>Username</th>
   		<th></th>
   	</tr>
   	<?php foreach ($users AS $user): ?>
