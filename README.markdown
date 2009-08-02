@@ -14,9 +14,11 @@ This package contains some simple php files for partially managing your subversi
 * modify-post-commit.php - Modify the post-commit hooks of all repositories within your svn parent dir.
 * htusers.php - Add and remove users to htusers file for repository authorization
 
-These are simple scripts fitting my needs with only a small number of depencies:
+These are simple scripts fitting *my* needs with only a small number of dependencies:
+
 * The webserver needs to be able to write to the repositories
 * The webserver must be capable of executing svnadmin (Must be on the path)
+
 
 LICENSE
 ------
@@ -32,14 +34,14 @@ Installation is easy:
 
 Project home:
 -------------
-The project is located at [Github][svnmin]
+The project is located at [Github][svnmin].
+
 Issues are stored in the project itself using the Ditz issue tracker.
 Check it out at [ditz.rubyforge.org][ditz]
 
 Authors 
 -------
 * ZeissS zeisss(AT_)moinz.de
-
 
    [svnmin]: http://www.github.com/zeisss/svnmin "Svnmin at GitHub"
    [ditz]:   http://ditz.rubyforge.org/ "Ditz at Rubyforge"

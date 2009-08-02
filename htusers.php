@@ -5,7 +5,9 @@
  #
  #
  ##############
- 
+    if (not defined('ACCESS_USER'))
+        die("No ACCESS_USER file provided");
+        
 	require 'config.php';
 	
 	function modify_htusers_file ( $action, $data, $file = ACCESS_USER ) {

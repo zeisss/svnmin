@@ -13,16 +13,20 @@
 	
 	###############################################################
 	##  A pattern to check the repository name before creating one.
+	##  By default this allows all chars (A-z) and numbers.
 	###############################################################
 	define ( "REPOSITORY_PATTERN", '/^[A-Za-z][A-Za-z0-9]*$/');
 	
 	################################################################
 	## Where is the path based authorization file located?
+	## Svnmin assumes you have one authz file for all of your
+	## repositories. Provide a path to it here.
 	################################################################
 	define ( "ACCESS_CONFIG", "/opt/svn/svnaccess.conf");
 	
 	################################################################
-	## 
+	## Svnmin assumes you have one htusers file for authenticating
+	## your repository users. If you don't use it, comment it out.
 	################################################################
 	define ( "ACCESS_USER", "/opt/svn/svnusers.conf");
 	define ( 'ACCESS_PASSWORDTYPE', 'crypt'); # Options: crypt, md5
@@ -30,5 +34,5 @@
 	################################################################
 	# Just a title added to the html output.
 	define ("TITLE", "Svnmin");
+	################################################################
 	
-?>
