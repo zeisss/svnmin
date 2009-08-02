@@ -1,10 +1,10 @@
-
 <?php
 	## REMOVE THIS
-	die("Not yet configured. See config.php");
+	die("Not yet configured. Place see config.php");
 	## END OF REMOVE THIS
 	
-    error_reporting(E_ALL);
+	### For debugging:
+    #error_reporting(E_ALL);
     
 	###############################################################
 	## Define the folder, where your Subversion repositories are.

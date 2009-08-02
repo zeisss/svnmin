@@ -3,3 +3,4 @@ svnmin-*.tar.gz
 svnmin-*.tar.gz.asc
 html
 
+config.php
