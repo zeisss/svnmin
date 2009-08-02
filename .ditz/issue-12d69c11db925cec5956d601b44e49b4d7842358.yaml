@@ -1,0 +1,18 @@
+--- !ditz.rubyforge.org,2008-03-06/issue 
+title: Add some help
+desc: The user interface is currently very small, so most features explain themselfs But we should add some way to provide help to the users.
+type: :feature
+component: svnmin
+release: svnmin-v0.3
+reporter: ZeissS <zeisss@moinz.de>
+status: :unstarted
+disposition: 
+creation_time: 2009-08-02 16:00:12.221121 Z
+references: []
+
+id: 12d69c11db925cec5956d601b44e49b4d7842358
+log_events: 
+- - 2009-08-02 16:00:13.595316 Z
+  - ZeissS <zeisss@moinz.de>
+  - created
+  - ""

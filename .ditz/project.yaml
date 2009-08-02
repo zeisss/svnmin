@@ -27,3 +27,12 @@ releases:
     - ZeissS <zeisss@moinz.de>
     - released
     - ""
+- !ditz.rubyforge.org,2008-03-06/release 
+  name: svnmin-v0.4
+  status: :unreleased
+  release_time: 
+  log_events: 
+  - - 2009-08-02 15:49:49.864213 Z
+    - ZeissS <zeisss@moinz.de>
+    - created
+    - ""

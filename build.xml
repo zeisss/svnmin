@@ -19,4 +19,8 @@
 			<arg value="${module.name}-${module.version}.tar.gz" />
 		</exec>
 	</target>
+	
+	<target name="ditz-html" description="Generate the ditz issue tracker report">
+	   <exec executable="ditz"><arg value="html" /></exec>
+	</target>
 </project>
