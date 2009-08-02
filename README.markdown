@@ -31,6 +31,11 @@ Installation is easy:
 2. Secure the folder e.g. with htaccess
 3. Modify the config.php to fit your needs and remove the die() command at the top
 
+Project home:
+-------------
+The project is located at Github: http://www.github.com/zeisss/svnmin
+Issues are stored in the project itself using the Ditz issue tracker.
+Check it out at http://ditz.rubyforge.org/
 
 Authors 
 -------
