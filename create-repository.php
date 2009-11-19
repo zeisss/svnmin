@@ -24,15 +24,11 @@
 		}
 	}
 ?>
-<html>
-<head><title><?php echo TITLE; ?> - create a new svn repository</title></head>
-<body>
- <h1>Create a new repository</h1>
+<? include 'layout/header.php'; ?> 
+<h1>Create a new repository</h1>
  <form>
   <label for="name">Name:</label>
   <input type="text" id="name" name="name" />
   <input type="submit" />
  </form>
-</body>
-</html>
-
+<? include 'layout/footer.php'; ?>

@@ -28,7 +28,7 @@
 	## Svnmin assumes you have one htusers file for authenticating
 	## your repository users. If you don't use it, comment it out.
 	################################################################
-	define ( "ACCESS_USER", "/opt/svn/svnusers.conf");
+	#define ( "ACCESS_USER", "/opt/svn/svnusers.conf");
 	define ( 'ACCESS_PASSWORDTYPE', 'crypt'); # Options: crypt, md5
 	
 	################################################################

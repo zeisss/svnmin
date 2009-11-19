@@ -31,11 +31,7 @@
 	closedir($dp);
 	sort($repositories);
 ?>
-<html>
-<head>
- <title><?php echo TITLE; ?> - Trigger modify</title>
-</head>
-<body>
+<? include 'layout/header.php'; ?>
 <form method="POST">
  <label for="repository">Repository:</label>
  <select name="repository">
@@ -68,6 +64,4 @@
  	</span>
  </div>
 <?php endif; ?>
-</body>
-</html>
-
+<? include 'layout/footer.php'; ?>

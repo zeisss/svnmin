@@ -5,10 +5,11 @@
  #
  #
  ##############
-    if (not defined('ACCESS_USER'))
-        die("No ACCESS_USER file provided");
+ require 'config.php';
+
+ if (!defined('ACCESS_USER'))
+    die("No ACCESS_USER file provided");
         
-	require 'config.php';
 	
 	function modify_htusers_file ( $action, $data, $file = ACCESS_USER ) {
 
@@ -70,11 +71,7 @@
 		$users[] = array('name' => $t[0], 'password' => $t[1]); # Add them for later display
 	}
 ?>
-<html>
- <head>
-  <title><?php echo TITLE; ?> - Manage users</title>
- </head>
- <body>
+<? include 'layout/header.php'; ?>
   <h1>Manage users</h1>
   <form method="POST" action="htusers.php?action=add">
     <label for="username">Username</label> <input type="text" name="username" />
@@ -94,5 +91,4 @@
   	</tr>
   	<?php endforeach; ?>
   </table>
- </body>
-</html>
+<? include 'layout/footer.php'; ?>

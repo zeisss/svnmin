@@ -7,6 +7,7 @@
   } 
   $content = join("", file(ACCESS_CONFIG));
 ?>
+<? include 'layout/header.php'; ?>
 <form method="POST">
  <textarea name="content" rows="30" cols="100"><?php echo $content; ?></textarea><br />
  <input type="submit" />
@@ -18,3 +19,4 @@
  </div>
 
 </form>
+<? include 'layout/footer.php'; ?>
