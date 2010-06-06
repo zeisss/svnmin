@@ -29,7 +29,7 @@ Installation
 
 Installation is easy: 
 
-0. (Configure Apache to server your repositories and secure them)
+0. (Configure Apache to serve your repositories and secure them)
 1. Unpack the tarball into a folder accessible by the webserver
 2. Secure the folder e.g. with htaccess
 3. Modify the config.php to fit your needs and remove the die() command at the top

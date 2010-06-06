@@ -1,6 +1,11 @@
 <?php
   require 'config.php';
 
+  if (!defined('ACCESS_CONFIG'))
+    die("No ACCESS_CONFIG file provided");
+  if ( !file_exists(ACCESS_CONFIG)) 
+    die(ACCESS_CONFIG . " does not exist.");
+
   if ( isset ( $_POST['content'])) {
     file_put_contents(ACCESS_CONFIG, $_POST['content']);    
     echo "Saved.";
