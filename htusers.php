@@ -18,7 +18,7 @@
 			
 		foreach ($content AS $line) {
 			$line = trim($line);
-			if ( empty($line) OR $line[0] == "#" ) { # Empty / comment lines gets imply stored
+			if ( empty($line) OR $line[0] == "#" ) { # Empty / comment lines get stored
 				$newcontent[] = "$line\n";		
 				continue;
 			}

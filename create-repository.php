@@ -1,5 +1,5 @@
 <?php
-	require 'config.php';
+	require 'model.php';
 
 	if ( isset ( $_GET['name'] ) && !empty($_GET['name'])) 
 	{

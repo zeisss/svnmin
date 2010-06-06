@@ -1,5 +1,5 @@
 <?php
-	require 'config.php';
+	require_once 'model.php';
 
         if ( !file_exists(SVN_PARENT)) 
           die(SVN_PARENT . " does not exist");
@@ -24,15 +24,7 @@
 	 	}
 	}
 	
-	$dp = opendir(SVN_PARENT);
-        while ( ( $file = readdir($dp)) !== false) {
-          if ( $file[0] == "." ) continue;	
-          if ( is_dir ( SVN_PARENT  ."/$file" ) ) {
- 	    $repositories[] = $file;    
-          }
-        }
-	closedir($dp);
-	sort($repositories);
+	$repositories = SvnRepoRepository::getAll();
 ?>
 <? include 'layout/header.php'; ?>
 <form method="POST">
